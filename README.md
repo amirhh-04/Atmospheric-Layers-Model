@@ -39,6 +39,14 @@ The script generates **four plots**:
 ## 📜 License
 This project is **open-source** under the MIT License.  
 
+## ⚠️ Important Note for Advanced Users
+Due to limitations in the current implementation, the code may produce errors or inaccuracies for altitudes above a certain threshold. For more precise calculations of atmospheric properties, it is recommended to use MATLAB's built-in function:
+
+```matlab
+atmosisa(h)
+```
+This function provides accurate atmospheric parameters based on the International Standard Atmosphere (ISA) model. Using atmosisa(h) can improve reliability, especially for higher altitude computations.
+
 ---
 
 🚀 *Developed with passion for aerospace & atmospheric physics!* ✈️  
